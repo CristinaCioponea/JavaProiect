@@ -6,6 +6,7 @@ public class Main {
                 " My world " +
                 "" +
                 "");
+        System.out.println("test");
     }
 
 
