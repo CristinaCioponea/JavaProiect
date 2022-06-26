@@ -7,11 +7,22 @@ public class Main3 {
         {
             System.out.println("Got to try some more" + textNew);
         }
-            LogicalOp op = new LogicalOp();
-            int biggest = op.checkBiggerNumber(7,3);
-            System.out.println("The bigger number is: " + biggest);
+        LogicalOp op = new LogicalOp();
+        int biggest = op.checkBiggerNumber(7, 3);
+        System.out.println("The bigger number is: " + biggest);
     }
+
+
+    LogicalOp switchNumber = new LogicalOp();
+    int nr = switchNumber.switchNumber(5);
+
+
+    Mod operatii = new Mod();
 
 
 
 }
+
+
+
+
