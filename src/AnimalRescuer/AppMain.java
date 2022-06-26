@@ -21,11 +21,12 @@ food.supplement();
 food.setTypeFood();
         System.out.println("Max food meals/Day is " + food.mealsDay);
 
+
         Vet vet = new Vet();
         System.out.println("Name vet is ");
         vet.nameVet();
         vet.setVaccinYear();
-
+    vet.specializationVet();
 
 
 
