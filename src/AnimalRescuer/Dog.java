@@ -7,6 +7,8 @@ public class Dog {
     String color = "black";
     double weight =  15.5;
     int heightCm = 55;
+
+    String recreation = "Bath time";
     public void eat(){
         System.out.println("eating dog food");
     }
@@ -38,5 +40,9 @@ public class Dog {
     }
     public void heightCm (){
         System.out.println("Dog's height in cm is");
+    }
+
+    public void recreation(){
+        System.out.println("Best recreation for " + name + " is " + recreation);
     }
 }

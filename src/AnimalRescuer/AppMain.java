@@ -13,6 +13,7 @@ public class AppMain {
         max.sleep();
         max.speak();
         max.waveTail();
+        max.recreation();
 
 
         FoodDog food = new FoodDog();

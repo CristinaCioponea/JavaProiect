@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a20b3cd-92f8-4076-9d75-b7e34f224736" name="Changes" comment="Cristina2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Vet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656232051908</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Cristina2">
+      <created>1656232704211</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656232704211</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
