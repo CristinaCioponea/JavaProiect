@@ -8,7 +8,7 @@ public class Vet {
     String treatmentVet = "Pills";
 
     public void Vet() {
-        System.out.println("Vet is careful");
+        System.out.println("Vet is very careful");
 
         }
         public void nameVet(){
