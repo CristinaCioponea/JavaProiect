@@ -19,6 +19,12 @@ public class Main3 {
         String greaterThanEqalTo = op.greaterThanEqualTo(4);
         System.out.println(greaterThanEqalTo);
 
+        int printNumber = op.printNumber(8);
+
+        boolean isNumberEven = op.isNumberEven(7);
+        System.out.println(isNumberEven);
+
+
 
 
     }
