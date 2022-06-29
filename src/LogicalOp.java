@@ -128,9 +128,7 @@ int x = 1;
          if (i % 2 == 0) {
              System.out.println("Even numbers are " + i);
          }
-
      }
-
     }
 // 6. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele impare de la 1 la 100.
  public void oddNumbers (){
@@ -140,10 +138,45 @@ int x = 1;
                 System.out.println("Odd numbers are " + i);
             }
         }
-
  }
-
+ //7. Creati o metoda in clasa LogicalOp care sa primeasca un parametru de tip numar. Metoda sa adune toate numerele pana la 100,
+    // pornind de la numarul primit ca si parametru, iar la final sa returneze rezultatul.
+    // Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+public int sumNumbers() {
+        int sum = 0;
+        int x = 36;
+        for (int i = x; i<=100; i++){
+            sum+=i;
+        }
+    return sum;
 }
+// 8. Creati o metoda in clasa LogicalOp care sa primeasca un parametru de tip numar. Metoda sa adune toate numerele pana la 100,
+// pornind de la numarul primit ca si parametru, si sa calculeze media numerelor. La final, metoda sa returneze media.
+// Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+    public double sumAndAverage(){
+        int x = 36;
+        int y = 100- 36;
+        int sum = 0;
+        for (int i = x; i<=100; i++) {
+            sum += i;
+        }
+        return sum/y;
+        }
+        public double countAndAverage (double first, double second){
+        double sum = 0;
+        double count = 0;
+         while (first<=second) {
+             sum = sum + first;
+             first++;
+             count++;
+         }
+return sum/count;
+
+        }
+
+    }
+
+
 
 
 

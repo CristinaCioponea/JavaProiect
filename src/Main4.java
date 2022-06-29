@@ -14,6 +14,14 @@ public class Main4 {
         LogicalOp op = new LogicalOp();
         op.evenNumbers();
         op.oddNumbers();
+        int sumNumbers = op.sumNumbers();
+        System.out.println(" Suma numerelor de la 36 la 100 este " + sumNumbers);
+
+        double sumAndAverage = op.sumAndAverage();
+        System.out.println("Media numerelor adunate de la 36,100 este " + sumAndAverage);
+        double countAndAverage = op.countAndAverage(36,100);
+        System.out.println("Media numerelor adunare de la 36 la 100 var 2 este " + countAndAverage);
+
 
 
         }
