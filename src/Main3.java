@@ -22,9 +22,13 @@ public class Main3 {
         int printNumber = op.printNumber(8);
 
         boolean isNumberEven = op.isNumberEven(7);
-        System.out.println(isNumberEven);
+        System.out.println("Numarul este par - " + isNumberEven);
 
+        boolean isEligibletoVote = op.isEligibleToVote(32);
+        System.out.println("He is eligible to vote - " + isEligibletoVote);
 
+        int returnBiggestNumber = op.returnBiggestNumber(3,8,5);
+        System.out.println("Biggest Number is " + returnBiggestNumber);
 
 
     }

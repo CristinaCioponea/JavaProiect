@@ -9,6 +9,10 @@ public class Numere {
                 }
                 System.out.println("");
             }
+
+
+                for (int i = 14; i<=16;++i)
+        System.out.println(i);
         }
     }
 

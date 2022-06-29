@@ -10,8 +10,17 @@ public class Main4 {
         for (int i = 3; i > 1; i--) {
             System.out.println("The value of i is: " + i);
         }
+
+        LogicalOp op = new LogicalOp();
+        op.evenNumbers();
+        op.oddNumbers();
+
+
+        }
     }
-}
+
+
+
 
 
 
