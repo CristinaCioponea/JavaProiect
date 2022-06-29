@@ -120,6 +120,10 @@ public class LogicalOp {
             return thirdNumber;
         }
     }
+
+
+
+
     //TEMA 12
     //5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
 int x = 1;
@@ -174,7 +178,52 @@ return sum/count;
 
         }
 
-    }
+        // 3. Creati o metoda in clasa LogicalOp, care sa primeasca doi parametrii de tip numar. Metoda sa afiseze
+    // o numaratoare intre cele doua numere primite, pornind de la primul parametru primit, pana la cel de-al doilea
+    // (ex: daca int x e primul parametru iar int y  este cel de-al doilea, numaratoarea sa se faca de la x, la y.
+public void countNumbers (){
+        int x = 11;
+        int y = 14;
+        for (int i = x; i <=y; i++){
+            System.out.println(" Numerele cuprinse intre x si y sunt " + i);
+        }
+}
+//4. Creati o metoda in clasa LogicalOp, care sa primeasca doi parametrii de tip numar.
+// Metoda trebuie sa verifice care dintre cele doua numere este mai mare, si sa execute o numaratoare crescatoare
+// de la cel mai mic la cel mai mare.(ex: daca int x e primul parametru iar int y  este cel de-al doilea,
+// daca x  este mai mare decat y,  atunci numaratoarea sa fie de la y la x).
+ public void numberGreaterThan () {
+        int x = 4;
+        int y = 7;
+        for (int i = x; i<=y; i++) {
+            if (x<=y) {
+                System.out.println("Ordinea crescatoare a numerelor este " + i);
+            }
+        }
+        for(int i = y; i>=x; i--) {
+            if (x<=y) {
+                System.out.println("Ordinea descrescatoare a numerelor este " + i);
+
+            }
+        }
+ }
+ //9.Creat o metoda in clasa LogicalOp care sa afiseze urmatorul tipar:
+ public void tipar () {
+     for (int i = 10; i >= 1; i--) {
+         for (int j = 10; j > i; j--) {
+             System.out.print(" ");
+         }
+         for (int k = 1; k <= i; k++) {
+             System.out.print("*");
+         }
+         System.out.println("");
+     }
+
+     for (int i = 10; i<=10;++i)
+         System.out.println(i);
+ }
+}
+
 
 
 
