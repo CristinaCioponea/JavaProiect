@@ -1,5 +1,4 @@
 public class LogicalOp {
-
     public int checkBiggerNumber(int first, int second) {
         if (first > second) {
             return first;
@@ -7,41 +6,55 @@ public class LogicalOp {
             return second;
         }
     }
-    //   8. Creati o metoda care primeste un numar ca si parametru si sa afiseze ce numar a primit.
-    //   Folosind constructia Switch-Case, verificati ce numar s-a primit si afisati textul "The number is:  x !" unde x trebuie sa reprezinte numarul apasat.
-    //   Pentru exemplul de fata sa nu se foloseasca concatenarea stringului "The number is:" cu numarul de la parametru, ci sa se scrie intreg textul cu tot cu numar
-    //   pentru fiecare caz din Switch-Case.
-    //   Apelati metoda in main() pentru a verifica daca functioneaza.
-
-    int nr = 5;
-
-    public int switchNumber(int nr) {
-        switch (nr) {
-            case 1:
-                System.out.println(" This number is:" + 1);
-                break;
-            case 2:
-                System.out.println(" This number is:" + 2);
-                break;
-            case 3:
-                System.out.println(" This number is:" + 3);
-                break;
-            case 4:
-                System.out.println(" This number is:" + 5);
-                break;
-            case 5:
-                System.out.println(" This number is:" + 7);
-                break;
-
+    public String returnTextNumber (String text, int number) {
+        if (text.equals("FastTrackIT ") && number <= 3) {
+            return text + number;
+        } else if (!text.equals("FastTrackIT ") && number >= 4) {
+            return number + text;
+        } else {
+            return "Neither conditions are true";
         }
-        return switchNumber(5);
+    }
+        public String checkText(String text) {
+            if (!text.equals("FastTrackIt")) {
+                return "Learning text comparision.";
+            } else {
+                return "Got to try some more.";
+            }
+        }
+
+    public String orCondition(int number) {
+        if (number > 8 || number == 6) {
+            return "The amount of snow this winter was(cm): " + number;
+        } else {
+            return "The forecast snow is(cm): " + number;
+        }
 
     }
+ public String orCondition2(int number) {
+        if (number > 10 || number ==12) {
+            return " This it's it " + number;
+        } else {
+            return "No way " + number;
+
+        }
+
+ }
+    public String greaterThanEqualTo (int number) {
+        if ( number > 3 && number != 4) {
+            return "The number is greater than 3 and not equal to 4";
+        } else if (number == 4) {
+            return "The number is equal to 4";
+        } else if (number < 3); {
+            return "The number is lower than 3";
+
+        }
+
+    }
+
+
+
 }
-
-
-
-
 
 
 
