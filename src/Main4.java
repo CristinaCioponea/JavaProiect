@@ -30,6 +30,9 @@ public class Main4 {
         op.whileEven();
         op.verifyCounterTwoNumbers();
         op.getBiggerNumbering();
+        op.numberDivided();
+
+
 
 
         }

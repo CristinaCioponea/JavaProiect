@@ -308,14 +308,26 @@ public class LogicalOp {
                     a++;
                 }
             }
+
         }
     }
-
     //8. Creati o metoda care sa primeasca doi parametrii de tip numar, si sa returneze media numerelor divizibile
 // cu 7, din acel interval. Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+public void numberDivided (){
+int x = 35;
+int y = 70;
+    int i = x / 7;
+    do {
+     System.out.println(x);
+     x++;
 
+ } while (i<=y); {
+        System.out.println(i);
 
+    }
+}
 
+        }
 
 
 
