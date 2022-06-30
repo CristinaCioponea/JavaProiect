@@ -124,7 +124,7 @@ public class LogicalOp {
 
 
 
-    //TEMA 12
+    //TEMA 12 = for
     //5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
 int x = 1;
     public void evenNumbers() {
@@ -222,6 +222,37 @@ public void countNumbers (){
      for (int i = 10; i<=10;++i)
          System.out.println(i);
  }
+
+
+ //TEMA 12 - WHILE
+    //1. Creati o metoda in clasa LogicalOp, care sa primeste un numar ca si parametru. Metoda sa verifice numrul primit,
+    // si sa afiseze in consola o numaratoare pana la 100, pornind de la numarul primit ca si parametru. Atentie la crearea
+    // tipului metodei, deoarece metoda afiseaza, nu returneaza.
+public void verifyCountandAverage () {
+        int x = 98;
+        int sum = 0;
+        double count = 0;
+        while (x<=100) {
+            sum = sum + x;
+            x++;
+            count++;
+        }
+    System.out.println("Media sumei numerelor cuprinse intre 98 si 100 este " + sum/count);
+}
+// 2. Creati o metoda in clasa LogicalOp, care sa primeste un numar ca si parametru. Metoda sa verifice numrul primit,
+// si sa afiseze in consola o numaratoare pana la -100, pornind de la numarul primit ca si parametru. Atentie la
+// crearea tipului metodei, deoarece metoda afiseaza, nu returneaza.
+public void verifyCountNegative (int first, int second){
+int count = -1;
+        while (first>=second){
+            count++;
+        }
+    System.out.println("Numaratoarea negativa este " + count);
+
+}
+
+
+
 }
 
 
