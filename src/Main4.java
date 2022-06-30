@@ -20,9 +20,17 @@ public class Main4 {
         op.countNumbers();
         op.numberGreaterThan();
         op.tipar();
+
+
         // TEMA 12 - WHILE
+
         op.verifyCountandAverage();
-        op.verifyCountNegative(-85, -100);
+        op.verifyCountPositive(3,7);
+        op.verifyCountNegative();
+        op.whileEven();
+        op.verifyCounterTwoNumbers();
+        op.getBiggerNumbering();
+
 
         }
     }
