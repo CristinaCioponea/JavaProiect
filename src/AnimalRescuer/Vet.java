@@ -1,24 +1,41 @@
 package AnimalRescuer;
 
 public class Vet {
-    String nameVet = "Paul";
-    String specializationVet = "Big Dogs";
-    int vaccinYear = 3;
-    int periodicConsultationYear = 4;
-    String treatmentVet = "Pills";
+    private String nameVet;
+    private String specializationVet;
+    private int vaccinYear;
+    private int periodicConsultationYear;
+    private String treatmentVet;
+
+
+
+    public void setNameVet (){
+        this.nameVet = nameVet;
+
+    }
+    public String getSpecializationVet (){
+        return specializationVet;
+    }
+    public void setVaccinYear(){
+        this.vaccinYear = vaccinYear;
+    }
+    public  void setSpecializationVet(){
+        this.specializationVet = specializationVet;
+    }
+
 
     public void Vet() {
         System.out.println("Vet is very careful");
 
         }
-        public void nameVet(){
-            System.out.println("Name vet is "+ nameVet);
+        public void setNameVetnameVet(){
+            System.out.println("Name vet is "+ setNameVet());
         }
         public void setVaccinYear(){
-            System.out.println("Necesarry vaccin per year is " + vaccinYear);
+            System.out.println("Necesarry vaccin per year is " + setVaccinYear());
         }
-        public void specializationVet(){
-            System.out.println("Veterinary specialization are " + specializationVet);
+        public void setSpecializationVet(){
+            System.out.println("Veterinary specialization are " + setSpecializationVet());
         }
     }
 

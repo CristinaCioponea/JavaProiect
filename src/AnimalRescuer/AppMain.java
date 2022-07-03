@@ -3,7 +3,10 @@ package AnimalRescuer;
 public class AppMain {
     public static void main(String[] args) {
         Dog max = new Dog();
-        System.out.println(max.name);
+        max.setName ("Max");
+        System.out.println(max.getName());
+
+        System.out.println(max.getName());
         max.play();
         max.age();
         System.out.println("Max's height in cm is " + max.heightCm);
@@ -23,11 +26,12 @@ food.setTypeFood();
         System.out.println("Max food meals/Day is " + food.mealsDay);
 
 
-        Vet vet = new Vet();
+        Vet paul = new Vet();
+
         System.out.println("Name vet is ");
-        vet.nameVet();
-        vet.setVaccinYear();
-    vet.specializationVet();
+        paul.setNameVet("Paul");
+        paul.setVaccinYear(3);
+    paul.setSpecializationVet("Big Dogs");
 
 
 
