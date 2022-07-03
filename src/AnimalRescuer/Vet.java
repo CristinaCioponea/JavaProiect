@@ -9,25 +9,20 @@ public class Vet {
 
 
 
-    public void setNameVet (){
+    public void setNameVet (String nameVet){
         this.nameVet = nameVet;
 
     }
-    public String getSpecializationVet (){
+    public String getSpecializationVet (String specializationVet){
         return specializationVet;
     }
-    public void setVaccinYear(){
+    public void setVaccinYear(int vaccinYear){
         this.vaccinYear = vaccinYear;
     }
-    public  void setSpecializationVet(){
+    public  void setSpecializationVet(String specializationVet){
         this.specializationVet = specializationVet;
     }
 
-
-    public void Vet() {
-        System.out.println("Vet is very careful");
-
-        }
         public void setNameVetnameVet(){
             System.out.println("Name vet is "+ setNameVet());
         }

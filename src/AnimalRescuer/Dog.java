@@ -16,6 +16,27 @@ public class Dog {
 
    }
 
+   public void setWeight(double weight) {
+       this.weight = weight;
+   }
+
+   public void setColor(String color) {
+       this.color = color;
+
+   }
+   public String getRace (){
+       return race;
+
+   }
+
+   public void setAge () {
+       this.age = age;
+   }
+
+   public int getHeightCm () {
+       return heightCm;
+   }
+
     String recreation = "Bath time";
     public void eat(){
         System.out.println("eating dog food");
@@ -39,11 +60,11 @@ public class Dog {
     public void race(){
         System.out.println(" Max's race is");
     }
-    public void color(){
+    public void setColor(){
         System.out.println(" Max color is");
     }
 
-    public void weight (){
+    public void setWeight (){
         System.out.println("Dog 's weight is");
     }
     public void heightCm (){
