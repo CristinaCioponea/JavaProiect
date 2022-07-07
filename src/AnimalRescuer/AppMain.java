@@ -9,19 +9,20 @@ public class AppMain {
 
 
         ducky.setName("Ducky");
+        System.out.println(ducky.getName());
         ducky.setColor("White");
+        System.out.println(ducky.getColor());
         pisi.setName("Pisi");
+        System.out.println(pisi.getName());
         pisi.setColor("Gray");
+        System.out.println(pisi.getColor());
 
-
-
-
-
-
-        System.out.println(max.getName());
         max.setColor("Black");
+        System.out.println(max.getColor());
         max.setWeight(15);
+        System.out.println(max.getWeight());
         max.setRace("Labrador");
+        System.out.println(max.getRace());
 
         max.setAge(3);
         max.setHeightCm(55);
