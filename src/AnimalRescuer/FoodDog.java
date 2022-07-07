@@ -13,4 +13,36 @@ public void setTypeFood(){
 
 
 }
+
+    public int getMealsDay() {
+        return mealsDay;
+    }
+
+    public void setMealsDay(int mealsDay) {
+        this.mealsDay = mealsDay;
+    }
+
+    public String getSupplement() {
+        return supplement;
+    }
+
+    public void setSupplement(String supplement) {
+        this.supplement = supplement;
+    }
+
+    public String getTypeFood() {
+        return typeFood;
+    }
+
+    public void setTypeFood(String typeFood) {
+        this.typeFood = typeFood;
+    }
+
+    public String getNameFood() {
+        return nameFood;
+    }
+
+    public void setNameFood(String nameFood) {
+        this.nameFood = nameFood;
+    }
 }

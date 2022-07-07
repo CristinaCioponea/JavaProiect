@@ -3,7 +3,21 @@ package AnimalRescuer;
 public class AppMain {
     public static void main(String[] args) {
         Dog max = new Dog();
-        max.setName ("Max");
+        Duck ducky = new Duck();
+        Cat pisi = new Cat();
+
+
+
+        ducky.setName("Ducky");
+        ducky.setColor("White");
+        pisi.setName("Pisi");
+        pisi.setColor("Gray");
+
+
+
+
+
+
         System.out.println(max.getName());
         max.setColor("Black");
         max.setWeight(15);

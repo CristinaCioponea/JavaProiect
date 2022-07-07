@@ -8,6 +8,9 @@ public class Vet {
     private String treatmentVet;
 
 
+    public String getSpecializationVet() {
+        return specializationVet;
+    }
 
     public void setNameVet (String nameVet){
         this.nameVet = nameVet;

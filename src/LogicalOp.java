@@ -311,29 +311,81 @@ public class LogicalOp {
 
         }
     }
+
     //8. Creati o metoda care sa primeasca doi parametrii de tip numar, si sa returneze media numerelor divizibile
 // cu 7, din acel interval. Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
-public void numberDivided (){
-int x = 35;
-int y = 70;
-    int i = x / 7;
-    do {
-     System.out.println(x);
-     x++;
+    public void numberDivided() {
+        int x = 35;
+        int y = 70;
+        int i = x / 7;
+        do {
+            System.out.println(x);
+            x++;
 
- } while (i<=y); {
-        System.out.println(i);
+        } while (i <= y);
+        {
+            System.out.println(i);
+
+        }
+    }
+
+    //2.  In clasa LogicalOp, creati o metoda care sa scrie pe un array de 100 de pozitii, valorile de la 1 la 100.
+// Sa se afiseze progresul in consola pe tot parcursul. Apelati metoda in main() pentru a verifica daca functioneaza.
+    public int[] populateArrayUpToNumber(int number) {
+        int[] array = new int[number];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
+        }
+        return array;
+    }
+
+    public void printArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+    }
+
+    // 3. Creati o metoda care primeasca un parametru de tip array de numere intregi gol, si sa il returneze populat cu
+// toate valorile pare de la 1 la 100. Apelati metoda in main() pentru a verifica daca functioneaza. Atentie,
+// metoda returneaza un array, deci acesta va trebui surprins si afisat folosind o bucla.
+    public void evenNumbersArray(int[] array) {
+
+        for (int i = 0; i < array.length; i++) {
+            if (i % 2 == 0) {
+
+            }
+            System.out.print("Even numbers are " + array[i]);
+        }
 
     }
-}
+    public int [] evenNumbersToArray (int number) {
+        int[] array = new int[100];
+        for (int i = 1; i <= array.length; i++) {
+            if (i % 2 == 0) {
 
-// 5. Creati o metoda care sa primeasca un parametru de tip array de string-uri, populat cu valori, si un parametru de tip String. Metoda sa verifice daca
-// valoarea string-ului primit se regaseste in array-ul primit, iar daca da sa returneze true iar daca nu,
-// sa returneze false.  Apelati metoda in main() pentru a verifica daca functioneaza.
+            }
 
+        }
+
+        return array;
+    }
+
+    public void ScanArray(int[] array) {
+        for (int i = 1; i < array.length; i++) {
+            if (i % 2 == 0) {
+
+
+                System.out.print(array[i] + " ");
+            }
+
+        }
+
+
+    }
 
 
         }
+
 
 
 
