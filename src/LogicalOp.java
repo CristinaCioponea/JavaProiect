@@ -327,7 +327,18 @@ int y = 70;
     }
 }
 
+// 5. Creati o metoda care sa primeasca un parametru de tip array de string-uri, populat cu valori, si un parametru de tip String. Metoda sa verifice daca
+// valoarea string-ului primit se regaseste in array-ul primit, iar daca da sa returneze true iar daca nu,
+// sa returneze false.  Apelati metoda in main() pentru a verifica daca functioneaza.
+
+
+
         }
+
+
+
+
+
 
 
 

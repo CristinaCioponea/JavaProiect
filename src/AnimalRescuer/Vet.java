@@ -13,25 +13,31 @@ public class Vet {
         this.nameVet = nameVet;
 
     }
+    public String getNameVet(){
+        return nameVet;
+
+    }
     public String getSpecializationVet (String specializationVet){
         return specializationVet;
     }
+
     public void setVaccinYear(int vaccinYear){
         this.vaccinYear = vaccinYear;
+    }
+    public int getVaccinYear(){
+        return vaccinYear;
     }
     public  void setSpecializationVet(String specializationVet){
         this.specializationVet = specializationVet;
     }
 
         public void setNameVetnameVet(){
-            System.out.println("Name vet is "+ setNameVet());
+            System.out.println("Name vet is "+ getNameVet());
         }
         public void setVaccinYear(){
-            System.out.println("Necesarry vaccin per year is " + setVaccinYear());
+            System.out.println("Necesarry vaccin per year is " + getVaccinYear());
         }
-        public void setSpecializationVet(){
-            System.out.println("Veterinary specialization are " + setSpecializationVet());
-        }
+
     }
 
 

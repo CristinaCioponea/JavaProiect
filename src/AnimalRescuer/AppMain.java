@@ -7,17 +7,18 @@ public class AppMain {
         System.out.println(max.getName());
         max.setColor("Black");
         max.setWeight(15);
-        max.getRace("Labrador");
+        max.setRace("Labrador");
+
         max.setAge(3);
-        max.getHeightCm(55);
+        max.setHeightCm(55);
 
         System.out.println(max.getName());
         max.play();
         max.age();
         System.out.println("Max's height in cm is " + max.getHeightCm());
-        System.out.println("Max race is " + max.getRace() + max.setColor());
-        System.out.println("Dog's weight is " + max.setWeight());
-        System.out.println("Max age is " + max.setAge());
+        System.out.println("Max race is " + max.getRace() + max.getColor());
+        System.out.println("Dog's weight is " + max.getWeight());
+        System.out.println("Max age is " + max.getAge());
         max.sleep();
         max.speak();
         max.waveTail();
@@ -32,11 +33,13 @@ food.setTypeFood();
 
 
         Vet paul = new Vet();
-
-        System.out.println("Name vet is ");
         paul.setNameVet("Paul");
+        paul.getNameVet();
         paul.setVaccinYear(3);
     paul.setSpecializationVet("Big Dogs");
+
+        System.out.println(max.recreation);
+        System.out.println("Name vet is " + paul.getNameVet());
 
 
 

@@ -15,25 +15,37 @@ public class Dog {
        this.name = name;
 
    }
-
    public void setWeight(double weight) {
        this.weight = weight;
    }
 
-   public void setColor(String color) {
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setColor(String color) {
        this.color = color;
-
    }
-   public String getRace (){
+   public String getColor(){
+       return color;
+   }
+   public void setRace (String race){
+       this.race = race;
+   }
+   public String getRace(){
        return race;
-
    }
-
-   public void setAge () {
+   public void setAge (int age) {
        this.age = age;
    }
+   public int getAge(){
+       return age;
+   }
+   public void setHeightCm (int age) {
 
-   public int getHeightCm () {
+       this.heightCm = heightCm;
+   }
+   public int getHeightCm(){
        return heightCm;
    }
 
