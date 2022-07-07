@@ -5,34 +5,41 @@ public class AppMain {
         Dog max = new Dog();
         Duck ducky = new Duck();
         Cat pisi = new Cat();
-
-
+        Cow cow = new Cow();
+        Labrador dogy = new Labrador();
 
         ducky.setName("Ducky");
-        System.out.println(ducky.getName());
+        System.out.println("Duck's name is " + ducky.getName());
         ducky.setColor("White");
-        System.out.println(ducky.getColor());
+        System.out.println("Duck's color is " + ducky.getColor());
         pisi.setName("Pisi");
-        System.out.println(pisi.getName());
+        System.out.println("Cat's name is " + pisi.getName());
         pisi.setColor("Gray");
-        System.out.println(pisi.getColor());
+        System.out.println("Cat's color is" + pisi.getColor());
+        cow.sleep();
+
+        max.setName("Max");
+        System.out.println("Dog's name is " + max.getName());
 
         max.setColor("Black");
-        System.out.println(max.getColor());
+        System.out.println(" Dog's color is" + max.getColor());
         max.setWeight(15);
-        System.out.println(max.getWeight());
+        System.out.println("Dog's weight is " + max.getWeight());
         max.setRace("Labrador");
-        System.out.println(max.getRace());
+        System.out.println("Dog's race is " + max.getRace());
 
-        max.setAge(3);
-        max.setHeightCm(55);
+        pisi.setAge(4);
+        System.out.println("Cat's age is " + pisi.getAge());
 
-        System.out.println(max.getName());
+        ducky.setHeightCm(22);
+        System.out.println("Duck's height in cm is " + ducky.getHeightCm());
+
         max.play();
-        max.age();
+        max.setHeightCm(55);
         System.out.println("Max's height in cm is " + max.getHeightCm());
         System.out.println("Max race is " + max.getRace() + max.getColor());
         System.out.println("Dog's weight is " + max.getWeight());
+        max.setAge(7);
         System.out.println("Max age is " + max.getAge());
         max.sleep();
         max.speak();
