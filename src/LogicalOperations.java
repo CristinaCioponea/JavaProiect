@@ -5,7 +5,7 @@ public class LogicalOperations {
 
 
     public static void myListofNumbers() {
-        //8. Scrieti o metoda Java care sa schimbe pozitia a doua elemente intr-o Lista,
+        //1. Scrieti o metoda Java care sa schimbe pozitia a doua elemente intr-o Lista,
 
         List<Integer> myList = new ArrayList<>();
 
@@ -22,7 +22,7 @@ public class LogicalOperations {
         System.out.println(myList);
     }
 
-    //10. Scrieti o metoda Java care sa primeasca o Lista si sa returneze o alta lista,
+    //2. Scrieti o metoda Java care sa primeasca o Lista si sa returneze o alta lista,
     // care sa contina doar numerele pare din lista primita.
     public static List<Integer> myEvenNumbers() {
         List<Integer> myEven = new ArrayList<>();
@@ -36,7 +36,24 @@ public class LogicalOperations {
         }
         return myEven;
     }
-    // 9. Scrieti o metoda Java care sa primeasca o Lista si sa returneze cel mai mare numar din ea
+    // 3.Scrieti o metoda Java care sa primeasca parametru o Lista nesortata, si sa returneze Lista sortata crescator.
+    // Atentie, sortarea sa se faca programatic(adica logica sa fie scrisa de voi),
+    // si nu folosit librarie externa, precum Collection.sort().
+    public static List<Integer> unsortedNumbers() {
+        List<Integer> unsortedNumbers = new ArrayList<>();
+        unsortedNumbers.add(1);
+        unsortedNumbers.add(2);
+        unsortedNumbers.add(8);
+        unsortedNumbers.add(5);
+        unsortedNumbers.add(3);
+
+        for (int i = 0; i<=8; i++) {
+            unsortedNumbers.add(i);
+        }
+
+
+        return unsortedNumbers;
+    }
 
 
 

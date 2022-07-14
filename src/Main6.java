@@ -8,6 +8,9 @@ public class Main6 {
         operations.myEvenNumbers();
         System.out.println(operations.myEvenNumbers());
 
+        operations.unsortedNumbers();
+        System.out.println(operations.unsortedNumbers());
+
 
     }
 
