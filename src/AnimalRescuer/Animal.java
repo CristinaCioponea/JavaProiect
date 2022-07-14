@@ -50,18 +50,12 @@ public class Animal {
     }
 
     String recreation = "Bath time";
-    public void eat(){
-        System.out.println("eating dog food");
-    }
+
     public void sleep(){
         System.out.println("Snores..zzzz");
     }
-    public void speak(){
-        System.out.println("Ham!");
-    }
-    public void play(){
-        System.out.println("Playing fetch");
-    }
+
+
 
     public void waveTail(){
         System.out.println("Waving the tail");

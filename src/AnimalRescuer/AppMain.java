@@ -65,6 +65,22 @@ food.setTypeFood();
 
 
 
+        cow.speak();
+        pisi.speak();
+        dogy.speak();
+        ducky.recreation();
+        cow.eat();
+        pisi.eat();
+        ducky.eat();
+        max.eat();
+        dogy.eat();
+        cow.play();
+        pisi.play();
+        ducky.play();
+        max.play();
+        dogy.play();
+
+
     }
 }
 
