@@ -10,6 +10,7 @@ public class Main6 {
 
         operations.unsortedNumbers();
         System.out.println(operations.unsortedNumbers());
+        operations.numere();
 
 
     }

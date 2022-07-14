@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class LogicalOperations {
@@ -55,7 +56,18 @@ public class LogicalOperations {
         return unsortedNumbers;
     }
 
-
+public static void numere () {
+int numere [] = {1, 2, 8, 5, 3};
+int s = numere.length;
+for ( int i = 0; i < s; i++) {
+    System.out.print(numere[i] + " ");
+}
+    System.out.println();
+    Arrays.sort(numere);
+    for (int i = 0; i < s; i++) {
+        System.out.print(numere[i] + " ");
+    }
+}
 
 }
 
