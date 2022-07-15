@@ -13,6 +13,7 @@ public class Main6 {
         operations.numere();
 
 
+
     }
 
 }

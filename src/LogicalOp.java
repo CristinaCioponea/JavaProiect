@@ -1,4 +1,6 @@
 public class LogicalOp {
+
+
     public int checkBiggerNumber(int first, int second) {
         if (first > second) {
             return first;
@@ -358,33 +360,32 @@ public class LogicalOp {
         }
 
     }
-    public int [] evenNumbersToArray (int number) {
-        int[] array = new int[100];
-        for (int i = 1; i <= array.length; i++) {
+//    3. Creati o metoda care primeasca un parametru de tip array de numere intregi gol,
+
+//    si sa il returneze populat cu toate valorile pare de la 1 la 100.
+
+
+    public int[] getEvenArrayToHundred(int[] evenArray) {
+        int j = 0;
+        for (int i = 1; i <= 100; i++) {
             if (i % 2 == 0) {
-
+                evenArray[j] = i;
+                j++;
             }
-
         }
-
-        return array;
-    }
-
-    public void ScanArray(int[] array) {
-        for (int i = 1; i < array.length; i++) {
-            if (i % 2 == 0) {
-
-
-                System.out.print(array[i] + " ");
-            }
-
-        }
-
-
+        return evenArray;
     }
 
 
-        }
+
+
+
+}
+
+
+
+
+
 
 
 
