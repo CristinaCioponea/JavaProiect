@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a20b3cd-92f8-4076-9d75-b7e34f224736" name="Changes" comment="Cristina2">
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescuer/BritishShortHair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Read.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Cow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Labrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Labrador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicalOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main5">
+  <component name="RunManager" selected="Application.Main7">
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnimalRescuer.AppMain" />
       <module name="JavaProiect" />
@@ -94,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Numere" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numere" />
+    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main7" />
       <module name="JavaProiect" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main7" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main6" />
         <item itemvalue="Application.AppMain" />
         <item itemvalue="Application.Main4" />
-        <item itemvalue="Application.Numere" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657874490129</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Cristina2">
+      <created>1657876592202</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1657876592202</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,13 +1,12 @@
 package AnimalRescuer;
 
-public class Cat extends Animal {
-    public void speak(){
-        System.out.println("Miau!");
-    }
-    public void eat(){
-        System.out.println("Eating cat food");
-    }
-    public void play(){
-        System.out.println("Cat is too lazy to play");
-    }
+public abstract class Cat extends Animal {
+    public abstract void speak();
+    public abstract void wash();
+    public abstract void recreation();
+
+    public abstract void sleep();
+
+    public abstract void eat();
+    public abstract void play();
 }

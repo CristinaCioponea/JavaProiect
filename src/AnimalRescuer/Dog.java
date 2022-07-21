@@ -1,19 +1,27 @@
 package AnimalRescuer;
 
-public class Dog extends Animal {
+public abstract class Dog extends Animal {
 
     public void waveTail(){
         System.out.println("Waving the tail");
     }
-    public void speak(){
-        System.out.println("Ham!");
+
+    public void recreation() {
+
     }
-    public void eat(){
-        System.out.println("Eating dog food");
+
+    public abstract void speak();
+
+    public void wash() {
+
     }
-    public void play(){
-        System.out.println("Playing with the ball");
+
+    public void sleep() {
+
     }
+
+    public abstract void eat();
+    public abstract void play();
 
     }
 

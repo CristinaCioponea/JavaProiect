@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Animal {
+public abstract class Animal {
     private int age;
     private String race;
     private String name;
@@ -51,11 +51,11 @@ public class Animal {
 
     String recreation = "Bath time";
 
-    public void sleep(){
-        System.out.println("Snores..zzzz");
-    }
-
-
+    public abstract void sleep();
+    public abstract void eat();
+    public abstract void play();
+    public abstract void speak();
+    public abstract void wash();
 
     public void waveTail(){
         System.out.println("Waving the tail");
@@ -72,8 +72,6 @@ public class Animal {
         this.recreation = recreation;
     }
 
-    public void recreation(){
-        System.out.println("Best recreation for " + name + " is " + recreation);
-    }
+    public abstract void recreation();
 }
 
