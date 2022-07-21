@@ -1,33 +1,35 @@
 package AnimalRescuer;
 
 public class BritishShortHair extends Cat {
-    @Override
+
     public void speak() {
+        System.out.println("Miau miau miau");
 
     }
 
-    @Override
     public void wash() {
+        System.out.println("Washing every day");
 
     }
 
-    @Override
     public void recreation() {
+        System.out.println("British Short Hair like to purrs");
 
     }
 
-    @Override
     public void sleep() {
+        System.out.println("Snores ....zzzz");
+
 
     }
 
-    @Override
     public void eat() {
+        System.out.println("Eating Gourmet Gold");
 
     }
 
-    @Override
     public void play() {
+        System.out.println("British Short Hair plays with the child");
 
     }
 }
