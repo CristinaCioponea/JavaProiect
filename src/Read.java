@@ -22,8 +22,23 @@ public class Read {
     }
     //1.In clasa Read, din programul vostru, creati o metoda tratat, care sa returneze un numar de la tastatura
     public int tratat(){
+        int x = 0;
+        boolean repeat;
+        do {
+            try {
+                Scanner scan = new Scanner(System.in);
+                System.out.print("Just a number");
+                x = scan.nextInt();
+                repeat = false;
+            } catch (InputMismatchException exception) {
+                System.err.print("Not a number ");
+                repeat = true;
 
-        return 0;
+            }
+
+        }while (repeat == true);
+
+        return x;
     }
 
 }
