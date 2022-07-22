@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a20b3cd-92f8-4076-9d75-b7e34f224736" name="Changes" comment="Cristina2">
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescuer/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Bengaleza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Bengaleza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/BritishShortHair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/BritishShortHair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/FoodDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/FoodDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AppMain">
+  <component name="RunManager" selected="Application.Main7">
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnimalRescuer.AppMain" />
       <module name="JavaProiect" />
@@ -105,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppMain" />
         <item itemvalue="Application.Main7" />
+        <item itemvalue="Application.AppMain" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main6" />
         <item itemvalue="Application.Main4" />
@@ -353,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658395754233</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Cristina2">
+      <created>1658397855446</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1658397855446</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
