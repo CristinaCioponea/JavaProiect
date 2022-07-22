@@ -33,12 +33,30 @@ public class Read {
             } catch (InputMismatchException exception) {
                 System.err.print("Not a number ");
                 repeat = true;
-
             }
-
         }while (repeat == true);
 
         return x;
     }
+    // 3. In clasa Read, creati o metoda care sa returneze un array de numere populat de la tastatura.
+    // Metoda sa primeasca ca si parametru un numar, care reprezinta cate pozitii are.
+    public int [] array() {
+        int number = 0;
+        Scanner scan = new Scanner(System.in);
+        try {
+            int[] myArray = new int[] {2,3,4,5};
+            System.out.println(myArray[scan.nextInt()]);
+        } catch (IndexOutOfBoundsException exception){
+            System.out.println("There is no position for that value! ");
+        }catch (InputMismatchException exception){
+            System.out.println("You have entered an incorrect value! ");
+        };
+        return new int[0];
+    }
+//4. 4. In clasa Read, creati o metoda care sa returneze o lista de numere populate de la tastatura.
+// Metoda nu va primi parametru lungimea. In rezolvarea ei trebuie folosit try-catch.
+// (Hint: a se citi de la tastatura atata timp cat valoarea primita e numar, cand nu mai e numar, sa se intrerupa citirea)
+
+
 
 }

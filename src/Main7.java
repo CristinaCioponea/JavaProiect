@@ -3,8 +3,11 @@ public class Main7 {
         Read read = new Read();
 //        float s = read.getFloat();
 //        System.out.print(s);
-        int x = read.tratat();
-        System.out.print(x);
+//        int x = read.tratat();
+//        System.out.print(x);
+        int [] myArray = read.array ();
+        System.out.println(myArray);
 
     }
+
 }
