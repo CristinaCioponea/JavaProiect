@@ -50,12 +50,31 @@ public class Read {
             System.out.println("There is no position for that value! ");
         }catch (InputMismatchException exception){
             System.out.println("You have entered an incorrect value! ");
-        };
+        }
         return new int[0];
     }
-//4. 4. In clasa Read, creati o metoda care sa returneze o lista de numere populate de la tastatura.
+//4. In clasa Read, creati o metoda care sa returneze o lista de numere populate de la tastatura.
 // Metoda nu va primi parametru lungimea. In rezolvarea ei trebuie folosit try-catch.
 // (Hint: a se citi de la tastatura atata timp cat valoarea primita e numar, cand nu mai e numar, sa se intrerupa citirea)
+    public int [] populateArray() {
+    int x = 0;
+        int[] simplyArray = new int[100];
+        boolean retry;
+        do {
+            try {
+                Scanner scannn = new Scanner(System.in);
+                x = scannn.nextInt();
+                retry = false;
+                System.out.println(simplyArray[scannn.nextInt()]);
+            } catch (InputMismatchException exception) {
+                System.out.println("Incorrect value ");
+                retry = true;
+            }
+        }while (retry);
+
+
+        return simplyArray;
+    }
 
 
 
